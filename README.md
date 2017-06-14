@@ -1,0 +1,1 @@
+binding-circle-progress-bar
