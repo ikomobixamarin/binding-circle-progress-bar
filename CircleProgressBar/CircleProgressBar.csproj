@@ -60,10 +60,10 @@
     <ObjcBindingApiDefinition Include="ApiDefinitions.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ObjcBindingNativeLibrary Include="libCircleProgressBar.a" />
+    <BundleResource Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="packages.config" />
+    <ObjcBindingNativeLibrary Include="libCircleProgressBar.a" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
   <Import Project="..\packages\NuGet.Build.Packaging.0.1.248\build\NuGet.Build.Packaging.targets" Condition="Exists('..\packages\NuGet.Build.Packaging.0.1.248\build\NuGet.Build.Packaging.targets')" />
