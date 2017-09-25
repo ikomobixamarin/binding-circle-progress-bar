@@ -11,13 +11,14 @@
     <AssemblyName>CircleProgressBar</AssemblyName>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <PackageId>Ikomobi.BindingCircleProgressBar</PackageId>
-    <PackageVersion>1</PackageVersion>
+    <PackageVersion>1.1.0</PackageVersion>
     <Authors>Ikomobi</Authors>
     <Description>Binding iOS CircleProgressBar</Description>
     <PackOnBuild>true</PackOnBuild>
     <PackageTags>ios binding circle progress bar</PackageTags>
     <Title>iOS  Binding CircleProgressBar</Title>
     <PackageProjectUrl>https://github.com/ikomobixamarin/binding-circle-progress-bar</PackageProjectUrl>
+    <Owners>Ikomobi</Owners>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
